@@ -3,7 +3,7 @@ This project is an IoT-based Smart Greenhouse control system powered by an ESP32
 
 It’s designed for home gardeners, researchers, and small-scale farmers who want an affordable, reliable, and remotely controllable plant-growing setup.
 
-✨Features
+# Features
 
 Real-time monitoring of temperature, humidity, and soil moisture.
 
@@ -25,7 +25,7 @@ Non-blocking code for smooth, responsive operation.
 
 Humidity scaling correction for inaccurate sensors.
 
-🛠Hardware Required
+# Hardware Required
 
 ESP32 development board
 
@@ -39,7 +39,7 @@ Humidifier (small ultrasonic)
 
 Power supply (ESP32 + pump requirements)
 
-Blynk Virtual Pin Mapping
+# Blynk Virtual Pin Mapping
 | Widget Name        | Pin | Type          | Range / Notes    |
 | ------------------ | --- | ------------- | ---------------- |
 | Temperature        | V0  | Gauge/Chart   | Double           |
@@ -56,7 +56,7 @@ Blynk Virtual Pin Mapping
 | Pump Start Count   | V13 | Value Display | Integer          |
 | Total ON Time      | V14 | Value Display | In seconds       |
 
-⚙️How It Works
+# How It Works
 
 1. ESP32 reads sensors every 2 seconds.
 
@@ -69,3 +69,8 @@ Blynk Virtual Pin Mapping
 5. All values and controls are synced with the Blynk app.
 
 6. Pump usage stats are saved in EEPROM so they survive power loss.
+   
+
+# Example Blynk Dashboard
+![Image Alt](https://github.com/studentamitabha25-coder/Smart-Greenhouse-Automation-with-ESP32-Blynk/blob/bd5129f273b2d1e766a67c116b4c0977a55bba4d/another%20screenchot.png)
+![Image Alt](https://github.com/studentamitabha25-coder/Smart-Greenhouse-Automation-with-ESP32-Blynk/blob/bd5129f273b2d1e766a67c116b4c0977a55bba4d/Screenshot%20(117).png)
