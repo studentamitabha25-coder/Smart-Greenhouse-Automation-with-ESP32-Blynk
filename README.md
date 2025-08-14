@@ -74,3 +74,6 @@ Power supply (ESP32 + pump requirements)
 # Example Blynk Dashboard
 ![Image Alt](https://github.com/studentamitabha25-coder/Smart-Greenhouse-Automation-with-ESP32-Blynk/blob/bd5129f273b2d1e766a67c116b4c0977a55bba4d/another%20screenchot.png)
 ![Image Alt](https://github.com/studentamitabha25-coder/Smart-Greenhouse-Automation-with-ESP32-Blynk/blob/bd5129f273b2d1e766a67c116b4c0977a55bba4d/Screenshot%20(117).png)
+## 💻 Code
+You can view the full source code here:  
+[📜 SmartGreenhouse.ino](Smart_Greenhouse.ino)
