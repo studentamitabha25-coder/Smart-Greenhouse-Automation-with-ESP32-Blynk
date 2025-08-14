@@ -1,5 +1,5 @@
-#define BLYNK_TEMPLATE_ID "Your templete id"
-#define BLYNK_TEMPLATE_NAME "Your templete name"
+#define BLYNK_TEMPLATE_ID "Your template id" //After creating a device in Blynk, you will find this three information, copy them and replace them in your code.
+#define BLYNK_TEMPLATE_NAME "Your template name"
 #define BLYNK_AUTH_TOKEN "Your Auth token"
 
 #include <WiFi.h>
@@ -31,8 +31,8 @@
 
 DHT dht(DHTPIN, DHTTYPE);
 
-char ssid[] = "Your wifi name";
-char pass[] = "your wifi password";
+char ssid[] = "Your wifi name";//Write your wifi name here.
+char pass[] = "your wifi password";//write your wifi password here.
 
 // === System Variables ===
 int humidityThreshold = 80;
