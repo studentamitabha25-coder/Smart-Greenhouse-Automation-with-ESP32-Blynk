@@ -79,15 +79,18 @@ Humidity scaling correction for inaccurate sensors.
 
 6. Pump usage stats are saved in EEPROM so they survive power loss.
 
-<div style="position: relative; width: 100%; padding-top: calc(max(56.25%, 400px));">
-  <iframe src="https://app.cirkitdesigner.com/project/17045e77-150a-4059-a553-bb2b04fc7a24?view=interactive_preview" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"></iframe>
-</div>
-<!--Please include the following link, which help us continue to improve and support the embed, making it a valuable tool for your audience.--> <p style= "margin-top: 5px;" >Edit this project interactively in <a href="https://app.cirkitdesigner.com/project/17045e77-150a-4059-a553-bb2b04fc7a24" target = "_blank">Cirkit Designer</a>.</p>
+
+## 🔌 Circuit Design
+
+You can view the Circuit design here:
+[💡Circuit.png](Circuit.png)
+Follow this link to talk intractably about the circuit:
+https://github.com/studentamitabha25-coder/Smart-Greenhouse-Automation-with-ESP32-Blynk/blob/0caf6de005c19b01a0e139be8a9cbe800c4cb6fb/Circuit.png
 
 ## 💻 Code
 You can view the full source code here:  
 [📜 SmartGreenhouse.ino](Smart_Greenhouse.ino)
-   
+
 
 # Example Blynk Dashboard
 ![Image Alt](https://github.com/studentamitabha25-coder/Smart-Greenhouse-Automation-with-ESP32-Blynk/blob/bd5129f273b2d1e766a67c116b4c0977a55bba4d/another%20screenchot.png)
