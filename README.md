@@ -84,7 +84,7 @@ Humidity scaling correction for inaccurate sensors.
 
 You can view the Circuit design here:
 [💡Circuit.png](Circuit.png)
-(Sorry for not giving SVG. It was making an issue.
+(Sorry for not giving SVG. It was making an issue.)
 
 Follow this link to talk intractably about the circuit:
 
@@ -93,6 +93,12 @@ https://app.cirkitdesigner.com/project/17045e77-150a-4059-a553-bb2b04fc7a24?view
 ## 💻 Code
 You can view the full source code here:  
 [📜 SmartGreenhouse.ino](Smart_Greenhouse.ino)
+
+
+# Youtube Video
+Here is a quick demonstration video of our project:
+
+https://youtu.be/2smq6MPJp6s
 
 
 # Example Blynk Dashboard
