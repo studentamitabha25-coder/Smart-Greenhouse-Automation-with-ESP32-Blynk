@@ -27,17 +27,26 @@ Humidity scaling correction for inaccurate sensors.
 
 # Hardware Required
 
-ESP32 development board
+1)  ESP32 development board
 
-DHT11 / DHT22 temperature & humidity sensor (DHT22 recommended for accuracy)
+2) DHT11 / DHT22 temperature & humidity sensor (DHT22 recommended for accuracy)
 
-Soil moisture sensor
+3) Soil moisture sensor
 
-Water pump + relay/MOSFET
+4) Water pump + relay/MOSFET
 
-Humidifier (small ultrasonic)
+5) Humidifier (small ultrasonic)
+   1. 1 kiloohm resistor
+   2. Diode
+   3. TIP122
 
-Power supply (ESP32 + pump requirements)
+7) Power supply
+   1. Solar panel 25W
+   2. Solar charge controller
+   3. Battery
+   4. L7805 voltage regulator
+   5. Capacitor(Electrolytic and ceramic)
+
 
 # Blynk Virtual Pin Mapping
 | Widget Name        | Pin | Type          | Range / Notes    |
@@ -69,11 +78,18 @@ Power supply (ESP32 + pump requirements)
 5. All values and controls are synced with the Blynk app.
 
 6. Pump usage stats are saved in EEPROM so they survive power loss.
+
+<div style="position: relative; width: 100%; padding-top: calc(max(56.25%, 400px));">
+  <iframe src="https://app.cirkitdesigner.com/project/17045e77-150a-4059-a553-bb2b04fc7a24?view=interactive_preview" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"></iframe>
+</div>
+<!--Please include the following link, which help us continue to improve and support the embed, making it a valuable tool for your audience.--> <p style= "margin-top: 5px;" >Edit this project interactively in <a href="https://app.cirkitdesigner.com/project/17045e77-150a-4059-a553-bb2b04fc7a24" target = "_blank">Cirkit Designer</a>.</p>
+
+## 💻 Code
+You can view the full source code here:  
+[📜 SmartGreenhouse.ino](Smart_Greenhouse.ino)
    
 
 # Example Blynk Dashboard
 ![Image Alt](https://github.com/studentamitabha25-coder/Smart-Greenhouse-Automation-with-ESP32-Blynk/blob/bd5129f273b2d1e766a67c116b4c0977a55bba4d/another%20screenchot.png)
 ![Image Alt](https://github.com/studentamitabha25-coder/Smart-Greenhouse-Automation-with-ESP32-Blynk/blob/bd5129f273b2d1e766a67c116b4c0977a55bba4d/Screenshot%20(117).png)
-## 💻 Code
-You can view the full source code here:  
-[📜 SmartGreenhouse.ino](Smart_Greenhouse.ino)
+
