@@ -84,11 +84,11 @@ Humidity scaling correction for inaccurate sensors.
 
 You can view the Circuit design here:
 [💡Circuit.png](Circuit.png)
-(Sorry for not giving SVG. It was making an issue)
+(Sorry for not giving SVG. It was making an issue.
 
 Follow this link to talk intractably about the circuit:
 
-https://github.com/studentamitabha25-coder/Smart-Greenhouse-Automation-with-ESP32-Blynk/blob/0caf6de005c19b01a0e139be8a9cbe800c4cb6fb/Circuit.png
+https://app.cirkitdesigner.com/project/17045e77-150a-4059-a553-bb2b04fc7a24?view=interactive_preview
 
 ## 💻 Code
 You can view the full source code here:  
